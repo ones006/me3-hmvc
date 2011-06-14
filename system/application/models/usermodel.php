@@ -72,7 +72,7 @@ class Usermodel extends Model
 	function getAdmins($fields=null, $limit=null)
 	{	
 		$fields!=null ? $this->db->select($fields) :'';
-        $this->db->where("role='admin' OR role='superadmin'");
+        $this->db->where("role='admin' OR role='superadmin'",'', FALSE);
 		
 		($limit != null ? $this->db->limit($limit['start'], $limit['end']) : '');
 

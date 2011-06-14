@@ -25,7 +25,7 @@
  | It will be displayed in some headers and in the subject of the emails
  |
  */
- $config['FAL_website_name']    = "173.one";
+ $config['FAL_website_name']    = "me3.one";
  
  /*
  |--------------------------------------------------------------------------

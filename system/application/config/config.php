@@ -11,7 +11,7 @@
 |	http://www.your-site.com/
 |
 */
-$config['base_url']	= "http://173.one/";
+$config['base_url']	= "http://me3.one/";
 
 /*
 |--------------------------------------------------------------------------
