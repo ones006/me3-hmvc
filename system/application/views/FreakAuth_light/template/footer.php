@@ -1,4 +1,9 @@
 </div>
+</div> <!-- #login -->
+</body>
+</html>
+
+<!--</div>
 <div class="clear"></div>
 	<div id="footer">
     <p class="webdesign">
@@ -10,4 +15,4 @@
     </div>
 </div> 
 </body>
-</html>
+</html>-->

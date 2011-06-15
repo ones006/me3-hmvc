@@ -1,13 +1,17 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title><?=$heading.' &raquo; '.$this->config->item('FAL_website_name')?></title>
-<link href="<?=base_url().$this->config->item('FAL_assets_front').'/'.$this->config->item('FAL_css');?>/fal_style.css" rel="stylesheet" type="text/css" />
-<script src="<?=base_url().$this->config->item('FAL_assets_shared').'/'.$this->config->item('FAL_js');?>/jquery.js" type="text/javascript"></script>
-<script src="<?=base_url().$this->config->item('FAL_assets_shared').'/'.$this->config->item('FAL_js');?>/flash.js" type="text/javascript"></script>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<title>Metrasat :: <?=$heading.' &raquo; '.$this->config->item('FAL_website_name')?></title>	
+	<link rel="stylesheet" href="<?=base_url().$this->config->item('FAL_assets').'/'.$this->config->item('FAL_css');?>/screen.css" type="text/css" media="screen" title="no title" charset="utf-8" />	
+	<link rel="stylesheet" href="<?=base_url().$this->config->item('FAL_assets_one-themes').'/'.$this->config->item('FAL_css');?>/plugin.css" type="text/css" media="screen" title="no title" charset="utf-8" />	
+	<link rel="stylesheet" href="<?=base_url().$this->config->item('FAL_assets_one-themes').'/'.$this->config->item('FAL_css');?>custom.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+	<link rel="stylesheet" href="<?=base_url().$this->config->item('FAL_assets_one-themes').'/'.$this->config->item('FAL_css');?>/login.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+
 </head>
-<body>
+
+<body >
+
 <div id="wrapper">
     <div id="header">
     	<h1>FreakAuth_light&reg;</h1>

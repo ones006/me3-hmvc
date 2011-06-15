@@ -54,7 +54,7 @@ $config['uri_protocol']	= "AUTO";
 | http://www.codeigniter.com/user_guide/general/urls.html
 */
 
-$config['url_suffix'] = ".html";
+$config['url_suffix'] = ".htmls";
 
 /*
 |--------------------------------------------------------------------------

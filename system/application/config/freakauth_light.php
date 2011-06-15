@@ -277,6 +277,9 @@
  $config['FAL_assets_admin'] = $config['FAL_assets'].'/admin'; //admin backend
  
 
+ $config['FAL_assets_one'] = $config['FAL_assets'].'/one-themes'; //all-themes
+ 
+
 /*-------------------+
 |  CAPTCHA SETTINGS  |
 +-------------------*/
