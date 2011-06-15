@@ -153,12 +153,11 @@ body
 
 	#header h1
 	{
-		background: url(../images/title.png) no-repeat 0 0;
-		width: 159px;
+		/*background: url(../images/title.png) no-repeat 0 0;*/
+		width: 700px;
 		height: 27px;
-		line-height: 500px;
-		overflow: hidden;
-		color: #FFF;		font-size: 32px;
+		color: #FFF;		
+		font-size: 32px;
 		position: absolute;
 		top: 40px;
 		left: 10px;
