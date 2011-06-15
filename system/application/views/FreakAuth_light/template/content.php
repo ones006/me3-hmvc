@@ -1,8 +1,8 @@
-	<div id="browse_crag">
+	<!--<div id="browse_crag">
 		<div class="login">
 			<?=loginAnchor();?>
 		</div>
-	</div>
+	</div>-->
 
 <div id="mainContent">
 <!--STAR FLASH MESSAGE-->

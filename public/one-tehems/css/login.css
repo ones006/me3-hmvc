@@ -1,10 +1,10 @@
-body { background: #263849; font: 12px/1.7em arial, sans-serif; }
+body { background: #fff; font: 12px/1.7em arial, sans-serif; }
 
 /* -------------------------------------------------------------- 
    Login
 -------------------------------------------------------------- */
 
-#login { width: 450px; margin: 150px auto; text-align: center;  }
+#login { width: 450px; margin: 60px auto; text-align: center;  }
 
 #login h1#title
 {
@@ -20,7 +20,7 @@ body { background: #263849; font: 12px/1.7em arial, sans-serif; }
 	
 #login-body 
 { 
-	background: #FFF; 
+	background: #FFA900; 
 	padding-bottom: 15px; 
 	border: 1px solid #ccc;
 	padding: 0 0 10px 0; 
@@ -29,14 +29,15 @@ body { background: #263849; font: 12px/1.7em arial, sans-serif; }
 	overflow: hidden; 
 	-moz-border-radius: 6px; 
 	-webkit-border-radius: 6px;	
-	-moz-box-shadow: 1px 1px 10px rgba(0,0,0,.25);
-	-webkit-box-shadow: 1px 1px 10px  rgba(0,0,0,.25);
+	-moz-box-shadow: -2px 4px 30px rgba(19, 239, 0, 0.25);
+	-webkit-box-shadow: -2px 4px 30px rgba(19, 239, 0, 0.25);
 }
 
 
 #login-body form { padding: 0 0 50px; position: relative; }
 
 #login-body input#login_password { width: 170px; position: absolute; top: 5px; left: 5px; }
+#login-body input#security { width: 150px; position: absolute; top: 5px; left: 5px; }
 
 
 #login-body input.text 
@@ -103,7 +104,7 @@ body { background: #263849; font: 12px/1.7em arial, sans-serif; }
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
-	background: #EEE;
+	background: #AEFF76;
 	padding: 5px;
 	margin: 0 0 15px 0;
 }
