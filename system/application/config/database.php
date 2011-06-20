@@ -11,6 +11,7 @@
 | -------------------------------------------------------------------
 | EXPLANATION OF VARIABLES
 | -------------------------------------------------------------------
+	test aja
 |
 |	['hostname'] The hostname of your database server.
 |	['username'] The username used to connect to the database
