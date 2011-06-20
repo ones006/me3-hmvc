@@ -148,8 +148,8 @@ body
 }
 
 #wrapper { width: 100%; min-width: 960px; margin: 0 auto 150px; }
-
-#header { background: #263849 url(../images/header_bg.png) repeat-x 0 0; width: 93%; height: 96px; margin: 0 auto; position: relative; }
+/*#263849*/
+#header { background:#398C06  url(../images/header_bg.pngs) repeat-x 0 0; width: 93%; height: 96px; margin: 0 auto; position: relative; }
 
 	#header h1
 	{
@@ -179,7 +179,7 @@ body
 	padding-right: 85px;
 }
 
-	#info h4 { font-size: 16px; color: #DDD; margin-bottom: .6em; }
+	#info h4 { font-size: 16px; color: #fff; margin-bottom: .6em; }
 
 	#info a { color: #F90; }
 	
@@ -198,7 +198,8 @@ body
 
 #nav 
 { 
-	background: #263849;
+	/*#263849*/
+	background:#0D540F ;
 	width: 93%; 
 	height: 47px; 
 	
