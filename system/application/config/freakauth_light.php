@@ -25,7 +25,7 @@
  | It will be displayed in some headers and in the subject of the emails
  |
  */
- $config['FAL_website_name']    = "me3.one";
+ $config['FAL_website_name']    = "Metrasat";
  
  /*
  |--------------------------------------------------------------------------
@@ -524,8 +524,8 @@ $config['FAL_roles'] =
          //end don't change
          
          //add your custom roles here
-         //'editor' => 3,
-         //'gallery_manager' => 4
+         'manager' => 3,
+         'direktur' => 4,
          //--------------------------
          
          //don't change the following line

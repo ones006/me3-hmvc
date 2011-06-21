@@ -36,14 +36,11 @@
 					
 		</div> <!-- #header -->	
 		
-		
+		<?php //$ci_uri = trim($this->uri->uri_string(), '/'); $att = ' class="mega mega-current"';?>
 		<div id="nav">	
 	
 			<ul class="mega-container mega-grey">
-	
-				<li class="mega mega-current">
-					<a href="index2.html" class="mega-link">Dashboard</a>	
-				</li>
+	         <li class="mega"><?=anchor('admin/', 'Dashboard', array('class'=>'mega-current mega-link'))?></li>
 		
 				<li class="mega">				
 					<a href="javascript:;" class="mega-tab">
@@ -54,21 +51,21 @@
 						<ul>
 							<li><a href="#">Departement</a></li>
 							<li><a href="#">Dokumen</a></li>			
-							<li><a href="users">Users</a></li>			
+							<li><?=anchor('admin/users', 'Users'      )?></li>			
 						</ul>
 					</div>						
 				</li>
-		
-				<li class="mega">				
-					<a href="#" class="mega-link">Form Order</a>		
+				
+				<li class="mega">
+				   <?=anchor('admin/sio_form_order/', 'Form Orders', array('class'=>'mega-link'))?>
 				</li>
 				
 				<li class="mega">				
-					<a href="#" class="mega-link">Perangkat Operasional</a>
+					<a href="<?=base_url()?>admin/perangkat_operasional/" class="mega-link">Perangkat Operasional</a>
 				</li>	
 		
 				<li id="grid" class="mega">				
-					<a href="#" class="mega-link">logout</a>		
+					<a href="<?=base_url()?>auth/logout" class="mega-link">logout</a>		
 				</li>
 		
 				<li class="mega">

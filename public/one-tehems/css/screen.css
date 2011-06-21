@@ -723,11 +723,11 @@ height: 0;
 .mega-container .mega:hover .mega-tab,
 .mega-container .mega:hover .mega-link,
 .mega-container .mega-current .mega-tab,
-.mega-container .mega-current .mega-link  { background-color: #263849; color: #fff !important; border-color: #1C2B37;   }
+.mega-container .mega-current .mega-link  { background-color: #ffa500; color: #fff !important; border-color: #1C2B37;   }
 
-.mega-container .mega:hover .mega-content { border-color: #263849; }
-.mega-container .mega-menu { background: #263849 !important; }
-.mega-container li > ul { background-color: #263849 !important; }
+.mega-container .mega:hover .mega-content { border-color: #ffa500; }
+.mega-container .mega-menu { background: #ffa500 !important; }
+.mega-container li > ul { background-color: #ffa500 !important; }
 
 
 

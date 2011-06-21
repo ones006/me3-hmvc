@@ -56,7 +56,7 @@ $config['uri_protocol']	= "AUTO";
 | http://www.codeigniter.com/user_guide/general/urls.html
 */
 
-$config['url_suffix'] = ".htmls";
+$config['url_suffix'] = ".html";
 
 /*
 |--------------------------------------------------------------------------
@@ -317,7 +317,7 @@ $config['time_reference'] = 'local';
 | in your view files.  Options are TRUE or FALSE (boolean)
 |
 */
-$config['rewrite_short_tags'] = FALSE;
+$config['rewrite_short_tags'] = TRUE;
 $config['common_path']	= define('COM_URL','http://'.$_SERVER['HTTP_HOST'].'/');
 
 ?>
